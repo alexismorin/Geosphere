@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: abb842147df7d3b479680c83c398dd7f
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Overlay: {fileID: 2800000, guid: d1a94fbf0492d16478ab4d3bd947a3a2, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
