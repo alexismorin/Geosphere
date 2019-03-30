@@ -3,7 +3,7 @@
 
 ![header](/images/header.png)
 
-Minimalist spacecraft controls in a dark art deep space.
+Minimalist spacecraft controls in dark art flavoured deep space.
 
 #### Features
 - Intuitive controls, more physical than other VR cockpit sims 
