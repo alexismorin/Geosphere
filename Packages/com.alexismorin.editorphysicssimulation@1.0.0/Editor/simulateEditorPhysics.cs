@@ -5,13 +5,13 @@ using UnityEngine;
 
 public class simulateEditorPhysics : MonoBehaviour {
 
-    [MenuItem ("Tools/Simulate Editor Physics - Start")]
+    [MenuItem ("Tools/Simulate Physics in Editor - Start")]
     static void editorSimStart () {
         Physics.autoSimulation = false;
         EditorApplication.update += Update;
     }
 
-    [MenuItem ("Tools/Simulate Editor Physics - Stop")]
+    [MenuItem ("Tools/Simulate Physics in Editor - Stop")]
     static void editorSimStop () {
         Physics.autoSimulation = true;
         EditorApplication.update -= Update;
