@@ -1,9 +1,6 @@
-# Geosphere
-### A VR Love Letter to Event Horizon, Hellraiser and Zdzisław Beksiński
+![Geosphere](/images/header.png)
 
-![header](/images/header.png)
-
-Minimalist spacecraft controls in dark art flavoured deep space.
+Minimalist spacecraft adventure in dark art themed deep space.
 
 #### Features
 - Intuitive controls, more physical than other VR cockpit sims 
