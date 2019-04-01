@@ -34,7 +34,7 @@ Shader "Fade"
 			float4 ase_screenPosNorm = ase_screenPos / ase_screenPos.w;
 			ase_screenPosNorm.z = ( UNITY_NEAR_CLIP_VALUE >= 0 ) ? ase_screenPosNorm.z : ase_screenPosNorm.z * 0.5 + 0.5;
 			float screenDepth9 = LinearEyeDepth(UNITY_SAMPLE_DEPTH(tex2Dproj(_CameraDepthTexture,UNITY_PROJ_COORD(ase_screenPos))));
-			float distanceDepth9 = abs( ( screenDepth9 - LinearEyeDepth( ase_screenPosNorm.z ) ) / ( 3.0 ) );
+			float distanceDepth9 = abs( ( screenDepth9 - LinearEyeDepth( ase_screenPosNorm.z ) ) / ( 20.0 ) );
 			float clampResult10 = clamp( distanceDepth9 , 0.0 , 1.0 );
 			o.Alpha = clampResult10;
 		}

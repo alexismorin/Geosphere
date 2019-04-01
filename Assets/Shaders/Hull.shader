@@ -88,7 +88,7 @@ Shader "Hull"
 			float2 uv_Mask = i.uv_texcoord * _Mask_ST.xy + _Mask_ST.zw;
 			float4 tex2DNode1 = tex2D( _Mask, uv_Mask );
 			o.Emission = ( tex2DNode1 * _Base ).rgb;
-			o.Smoothness = 1.0;
+			o.Smoothness = 0.93;
 			o.Alpha = tex2DNode1.r;
 			o.Normal = o.Normal + 0.00001 * i.screenPos * i.worldPos;
 		}

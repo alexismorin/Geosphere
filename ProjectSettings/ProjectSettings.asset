@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: AM Developments
   productName: darkspace
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -308,7 +308,6 @@ PlayerSettings:
     m_Enabled: 1
     m_Devices:
     - Oculus
-    - OpenVR
   m_BuildTargetEnableVuforiaSettings: []
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
